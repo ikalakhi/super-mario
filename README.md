@@ -1,4 +1,5 @@
 # MarioClub
+![Screenshot 2023-08-19 161554](https://github.com/ikalakhi/super-mario/assets/95699377/b17d374f-d02d-43ca-ae2e-882a8a2fc5ec)
 
 MarioClub is a front-end project that I developed while following The Net Ninja's tutorial on YouTube. This project allowed me to dive into the fundamentals of HTML and CSS. It revolves around creating a visually appealing and interactive user interface for a fictional "MarioClub" website. The project aimed to enhance my understanding of web development concepts and improve my skills in designing and styling web pages.
 
