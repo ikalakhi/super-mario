@@ -34,14 +34,14 @@ header h1 {
     left: 0;
     top: 30%;
 }
-.banner .h2 {
+.banner h2 {
     font-size: 74px;
 }
 .banner h2 span {
     font-size: 1.3em;
 }
 nav {
-    background-color: #f4f4f4;
+    background-color: rgb(255, 255, 255, 0.95);
     padding: 20px;
     position: sticky;
     top: 75px;
@@ -82,6 +82,7 @@ article p {
     text-align: center;
     margin: 80px 0;
     white-space: nowrap;
+    background-color: rgba(255, 0, 0);
 }
 .images li {
     display: inline-block;
@@ -129,7 +130,7 @@ form input:focus {
 form input:valid {
     border: 4px solid #71d307;
 }
-article p::first-line{
+article p::first-line {
     font-weight: bold;
     font-size: 1.2em;
 }
@@ -142,4 +143,52 @@ p::selection {
 }
 p::after {
     content: '...';
+}
+
+/*responsive styles*/
+
+@media screen and (max-width: 800px) {
+    .banner .welcom h2{
+        font-size: 40px;
+    }
+    nav li {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .banner .welcom h2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 385px) {
+    .banner .welcom{
+        position: relative;
+        text-align: center;
+        padding: 10px;
+    }
+    .banner .welcom br {
+        display: none;
+    }
+    .banner .welcom span {
+        font-size: 1em;
+    }
+    .images li {
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+    }
+}
+@media screen and (max-width: 370px) {
+    nav li {
+        font-size: 13px;
+        display: block;
+        width: 100%;
+        margin: 12px 0;
+    }
+    header {
+        position: relative;
+    }
+    nav {
+        top:0
+    }
 }
